@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  height: 780px;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+.toggle{
+  display: flex;
+  padding: 20px;
+}
+.toggle h5 {
+  margin-right: 8px;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+.loginForm h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+}
+.loginForm input {
+  min-width: 380px;
+  padding: 20px 0px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 2px;
+}
+.submitBtn{
+  min-width: 300px;
+  padding: 17px 30px;
+  margin-top: 20px;
+  background: black;
+  border: none;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 3px;
+  color: #fff;
+}
+.logout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.logoutBtn {
+  min-width: 300px;
+  padding: 17px 30px;
+  margin-top: 20px;
+  color: #fff;
+  background: black;
+  border: none;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 3px;
+}
+ .userName {
+  color: #8d0ada;
+ }
+ .nameBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+ }
+ .nameBox h5{
+  color: rgb(255, 205, 139);
+ }
+ .nameBox button{
+  min-width: 100px;
+  padding: 8px 15px;
+  color: #fff;
+  background: rgb(44, 5, 5);
+  border: none;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 3px;
+ }
